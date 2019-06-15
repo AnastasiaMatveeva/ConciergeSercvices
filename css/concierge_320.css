@@ -1,0 +1,495 @@
+@import url("main.css");
+@media (min-width: 320px) {
+  .mobile {
+    min-width: 344px;
+  }
+  .desktop {
+    display: none;
+  }
+  .m-container {
+    position: relative;
+    overflow: hidden;
+  }
+  .col-md-9, .col-md-10 {
+    position: static;
+  }
+  .logo {
+    width: 18%;
+    margin: 7px 0 12px -4px;
+  }
+  .m-nav {
+    background: #f9f9f9;
+    height: 8%;
+    justify-content: space-between;
+  }
+  .nav-btn, .show>.btn-secondary.dropdown-toggle:focus,
+  .btn-secondary:not(:disabled):not(.disabled):active,
+  .btn-secondary:not(:disabled):not(.disabled):active:focus,
+   .btn-secondary:hover {
+    font-size: 14px;
+    position: relative;
+    border-radius: 6px;
+    color: #000;
+    background: #F4F4FA;
+    border: 1px #e5e5e8 solid;
+    box-shadow: none;
+    width: 67%;
+    margin: 8px 0 8px 4px;
+    font-family: 'Montserrat Alternates Bold';
+    text-align: start;
+    padding: 0px 7px 7px 21px;
+  }
+  .dropdown-toggle::after {
+    right: 10px;
+    top: 40%;
+    position: absolute;
+  }
+  .show-asaid img {
+    margin: -3px -21px 0 0;
+  }
+  .dropdown-menu.show {
+    width: 61%;
+    background: #f4f3fa;
+    line-height: 1.5;
+  }
+  .dropdown-item:hover {
+    font-family: 'Montserrat Alternates Bold';
+  }
+  .m-headers {
+    font-size: 20px !important;
+    margin: -7px 0 0px -10px !important;
+  }
+  .Telegram-headers {
+    margin: 11px 0 6px 0px !important;
+    font-size: 20px !important;
+  }
+}
+
+.btn-outline-secondary,
+.btn-outline-secondary:hover,
+.btn-outline-secondary:not(:disabled):not(.disabled):active,
+.btn-outline-secondary {
+  background: transparent;
+  border: none;
+}
+
+.dropdown-menu a {
+  color: #000;
+  padding: 2px 10px 3px;
+}
+
+.dropdown-menu {
+  padding: 0;
+}
+
+.dropdown-item {
+  font-size: 8px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link .active {
+  font-family: 'Montserrat Alternates Bold';
+}
+
+.m-content {
+  display: block;
+  background: #F4F4FA;
+}
+
+.m-content h2 {
+  font-size: 14px;
+}
+
+.concierge-text p {
+  font-size: 16px;
+  margin: 12px 0 41px -10px;
+}
+
+.concierge-text {
+  padding: 0;
+}
+
+.input-email {
+  padding-left: 20px;
+  position: absolute;
+  border-radius: 8px;
+  z-index: 1;
+  height: 38px;
+  width: 275px;
+  background: #f4f3fa;
+  margin: 11px -26px 10px -26px;
+}
+
+.girl {
+  height: 273px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.block {
+  background: #FCDD3E;
+  border: 1px solid #FCDD3E;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  min-width: 300px;
+  position: relative;
+  margin-left: -16px;
+  padding: 19px 0 0 24px;
+}
+
+.blocks {
+  min-height: 637px;
+}
+
+.b-text {
+  margin-top: 10px;
+}
+
+.btn-wrire, .btn-telegram,
+.btn-subscribe, .btn-telegram-ru,
+.btn-subscribe-ru {
+  position: absolute;
+  font-size: 12px;
+}
+
+.b-text p {
+  margin-bottom: 0;
+}
+
+.modal-header {
+  border: none;
+  height: 10px;
+}
+
+.modal-body h2 {
+  margin-bottom: 35px;
+  font-size: 18px;
+}
+
+.modal-input {
+  height: 30px;
+  background: #F2F2F9;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.modal-content a {
+  color: #4A3EEF;
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+.modal-textarea {
+  height: 100px;
+  background: #F2F2F9;
+  border-radius: 4px;
+}
+
+.close>span {
+  font-size: 38px;
+}
+
+.send {
+  position: static;
+  margin-top: 13px;
+}
+
+.hide {
+  display: none;
+}
+
+.right-side {
+  position: absolute;
+  top: 0;
+  background: #fff;
+  z-index: 2;
+}
+
+.r-close {
+  font-size: 22px;
+  position: absolute;
+  right: 4%;
+}
+
+.osminog {
+  display: flex;
+}
+
+.osminog-text {
+  margin: 21px 0 0 20px;
+}
+
+.bots a {
+  color: #4A3EEF;
+  text-decoration: underline;
+}
+
+.contacts {
+  margin-top: 10px;
+}
+
+.language {
+  margin: 64px 0 0 7px;
+}
+
+.language a:last-of-type {
+  margin-left: 31px;
+}
+
+.top-block {
+  height: 458px;
+  position: relative;
+}
+
+.bank h3 {
+  font-size: 13px;
+  font-family: 'Montserrat Alternates Bold';
+  margin: 31px 10px 11px 16px;
+}
+
+.bank p {
+  font-size: 20px;
+  margin: -5px 10px 10px 15px;
+  font-family: 'Montserrat Alternates Bold';
+}
+
+.bank img {
+  margin: 3px 10px 10px 16px;
+}
+
+.contacts h2 {
+  font-size: 24px !important;
+  margin: 48px 0 0 10px !important;
+}
+
+.contacts h3 {
+  font-size: 15px;
+  margin: 15px;
+  font-family: 'Montserrat Alternates Bold';
+  opacity: 0.5;
+}
+
+.contacts p {
+  margin: -8px 0px 10px 14px;
+  font-size: 21px;
+  font-family: 'Montserrat Alternates Bold';
+}
+
+.email h3 {
+  font-size: 14px;
+  margin: 14px 0px 0px 15px;
+  font-family: 'Montserrat Alternates Bold';
+  opacity: 0.5;
+}
+
+.email p {
+  font-size: 21px;
+  margin: 8px 0 0 14px;
+  font-family: 'Montserrat Alternates Bold';
+}
+
+.bots p {
+  margin: 23px 0 0 15px;
+}
+
+.bot {
+  margin: 20px 0 0 14px;
+}
+
+.bot img {
+  margin: -4px 11px 0 0;
+}
+
+.bot a {
+  font-size: 20px;
+}
+
+.osminog img {
+  margin: -16px -14px 0px -21px;
+}
+
+.copywriting {
+  margin: 22px 0 37px 28px;
+}
+
+.r-close {
+  margin-top: 10px;
+}
+
+}
+
+}
+
+@media (min-width: 768px) {
+  ::after, ::before {
+    box-sizing: inherit;
+  }
+  .desktop {
+    display: none;
+  }
+  .m-nav {
+    height: 19%;
+  }
+  .btn-outline-secondary {
+    margin-top: 21px;
+  }
+  .btn-outline-secondary img {
+    height: 40px;
+  }
+  .nav-btn, .show>.btn-secondary.dropdown-toggle:focus,
+  .btn-secondary:not(:disabled):not(.disabled):active,
+  .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:hover {
+    font-size: 14px;
+  }
+  .nav-btn {
+    height: 53px;
+  }
+  .dropdown-item {
+    font-size: 14px;
+    padding: 4px 24px;
+  }
+  .dropdown-menu a {
+    padding: 8px 16px;
+  }
+  .concierge-text p {
+    font-size: 14px;
+    padding-left: 15px;
+  }
+  .m-headers {
+    padding-left: 9px;
+  }
+  .m-content-items {
+    margin: auto;
+  }
+  .top-block {
+    height: 340px;
+  }
+  .vertical-block, .bottom-block {
+    height: 340px;
+  }
+  .input-email {
+    width: 190px;
+    height: 40px;
+    font-size: 14px;
+    background: #F2F2F9;
+    border-radius: 4px;
+    margin: 10px 0 0 25px;
+  }
+  .bank p, .contacts p, .email p {
+    font-family: 'Montserrat Alternates Bold';
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  .bank img {
+    width: 65%;
+  }
+  .col-md-11 {
+    margin: 0 60px;
+    margin: 20px 60px 0 60px;
+  }
+  .osminog-text {
+    margin-right: 50px;
+  }
+  .r-close {
+    font-size: 38px;
+    position: absolute;
+    right: 4%;
+  }
+  .modal-body input {
+    height: 40px;
+  }
+  .modal-body textarea {
+    height: 107px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .girl {
+    width: 41%;
+    height: 345px;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+  }
+  .phone-img {
+    bottom: 0;
+    right: 0%;
+    position: absolute;
+  }
+  .travel-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 80%;
+  }
+  .btn-write, .btn-telegram, .btn-subscribe {
+    top: 74%;
+    left: 7%;
+    position: absolute;
+  }
+  .btn-write:hover, .btn-telegram:hover, .btn-subscribe:hover {
+    background: #eedf4c;
+  }
+  .vertical-block p, .vertical-block h4, .bottom-block p {
+    margin-left: 11px !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .travel-img {
+    margin-left: 0 !important;
+  }
+  .btn-subscribe {
+    left: 39%;
+    top: 63%;
+    width: 166px;
+  }
+  .btn-subscribe-ru {
+    left: 39%;
+    top: 67%;
+    width: 166px;
+  }
+  .phone-img {
+    position: absolute;
+    bottom: 427px;
+    left: 54px;
+    width: 343px;
+  }
+  .travel-img {
+    bottom: -54px;
+    left: -94px;
+    position: absolute;
+  }
+  .btn-write {
+    top: 383px;
+    left: 31px;
+    width: 132px;
+    z-index: 1;
+    position: absolute;
+  }
+  .btn-telegram {
+    top: 226px;
+    left: 39px;
+    width: 167px;
+    position: absolute;
+  }
+  .btn-telegram-ru {
+    top: 239px;
+    left: 39px;
+    width: 167px;
+    z-index: 1;
+    position: absolute;
+  }
+  .vertical-block {
+    height: 436px;
+  }
+  .bottom-block {
+    overflow: hidden;
+    height: 437px;
+    padding-left: 32px;
+    margin-bottom: 54px;
+  }
+}

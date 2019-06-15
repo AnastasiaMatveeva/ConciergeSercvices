@@ -1,0 +1,138 @@
+@import url("main.css");
+@media (min-width: 320px) {
+  .container-fluid {
+    min-height: 100vh;
+    background: #F4F4FA;
+  }
+  .card-header {
+    padding: 12px 0 0 39px;
+  }
+  .header-ques {
+    font-size: 24px !important;
+  }
+  .card-header p {
+    font-size: 14px;
+    font-family: 'Montserrat Alternates Bold';
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+  .card-body {
+    font-size: 13px;
+    padding: 5px 57px 5px 62px;
+    line-height: 1.5;
+  }
+  .changed-img {
+    background-image: url(../img/up.svg) !important;
+    background-size: cover;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.btn-accordion {
+  margin-right: 14px;
+}
+
+.container-fluid h2 {
+  margin: 6px 0 6px 17px;
+  font-size: 16px;
+}
+
+.questions-acc {
+  padding: 10px;
+}
+
+.change-img {
+  position: absolute;
+  left: 0;
+  background-image: url(../img/arrow.svg);
+  background-color: transparent;
+  width: 27px;
+  height: 27px;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.card p {
+  margin: 0px 20px 0 24px;
+}
+
+
+
+@media (min-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+  .card {
+    padding: auto;
+  }
+  .content {
+    width: 80%;
+  }
+  .card-header p {
+    font-size: 16px;
+    font-family: 'Montserrat Alternates Bold';
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+  .card-body {
+    font-size: 16px;
+    padding: 9px 0 15px 46px;
+    line-height: 1.4;
+    width: 80%;
+  }
+  .btn-accordion {
+    margin-right: 40px;
+  }
+  .btn-accordion, .btn-accordion-e {
+    border: 0;
+    background: transparent;
+  }
+  .change-img {
+    background-image: url(../img/arrow.svg);
+    width: 34px;
+    height: 34px;
+    background-size: contain;
+  }
+  .change-img:hover {
+    background-image: url(../img/arrow_hover.svg);
+  }
+  #menu2 {
+    padding: 26px 0 0 143px;
+  }
+  .card p {
+    margin: 10px;
+  }
+}
+
+.btn-accordion, .btn-accordion-e {
+  border: 0;
+}
+
+.card, .card-header {
+  background: transparent;
+  border: none;
+  padding-bottom: 0;
+}
+
+.card {
+  min-height: 70px;
+  border-top: 1px #EDEDF1 solid;
+  border-bottom: 1px #EDEDF1 solid;
+}
+
+.btn-accordion img {
+  width: 26px;
+  height: 26px;
+}
+
+.card-header {
+  display: flex;
+}
+
+.changed-img {
+  background-image: url(../img/up.svg) !important;
+  background-size: cover;
+}

@@ -1,0 +1,175 @@
+@import url("main.css");
+@media (min-width: 320px) {
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+  .b-logo {
+    margin: 4px 2px 2px 4px;
+  }
+  .banks-list {
+    margin: 5% 0 5% 0;
+  }
+  .checked {
+    opacity: 0.5;
+  }
+  .osminog-banks {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+  }
+  .privacy-policy-acceptance {
+    display: flex;
+  }
+  .modal-footer {
+    display: block;
+  }
+  .privacy-policy.nav-btn {
+    width: 302px;
+  }
+  .no-visible {
+    visibility: hidden;
+  }
+  .btn-back {
+    color: #007bff;
+  }
+  #agree {
+    transform: scale(2.3);
+    opacity: 0.9;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 900px;
+    margin: 1.75rem auto;
+  }
+  .privacy-policy.nav-btn {
+    width: 502px;
+  }
+}
+
+@media (min-width: 768px) {
+  .b-logo {
+    width: 47%;
+    margin: 4px 2px 2px 4px;
+  }
+  .banks-list {
+    margin: 5% auto 0;
+  }
+  .nav-btn {
+    margin-top: 4%;
+  }
+  .osminog-banks {
+    display: flex;
+    margin-top: 0 5% 0 5%;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    height: 100vh;
+  }
+  .b-logo {
+    width: 18%;
+    margin: 11px 8px 2px 4px;
+  }
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
+  .banks-header {
+    margin-bottom: 2%;
+  }
+  .nav-btn {
+    margin-top: 4%;
+  }
+  .osminog-banks {
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+  }
+  .banks-background {
+    margin-bottom: 0;
+  }
+}
+
+.banks {
+  margin: 0 auto;
+}
+
+.banks-background {
+  cursor: pointer;
+}
+
+.banks-list {
+  padding: 0;
+}
+
+.checked {
+  opacity: 0.5;
+}
+
+.nav-btn {
+  height: 40px;
+}
+
+.btn-back {
+  color: #4A3EEF;
+  margin-left: 5%;
+}
+
+.btn-back:hover {
+  color: #4A3EEF;
+}
+
+}
+
+.osminog-banks img {
+  display: block;
+}
+
+.osminog_text {
+  margin-left: 28px;
+  padding-top: 39px;
+}
+
+/*  Privacy policy styles*/
+
+.privacy-policy-wrapper {
+  /* position: relative; */
+  height: 1210px;
+  background: #000;
+  opacity: 0.5;
+  display: none;
+  z-index: 10;
+}
+
+.privacy-policy-container {
+  background: #FFFFFF;
+  border-radius: 20px;
+  z-index: 11;
+  opacity: 1;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.privacy-policy-header {}
+
+.privacy-policy-text {
+  height: 916px;
+}
+
+.privacy-policy-acceptance input {
+  margin-right: 15px;
+}

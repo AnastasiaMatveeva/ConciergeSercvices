@@ -1,0 +1,257 @@
+@import url("main.css");
+.country-choose-btn select {
+  size: 100px;
+}
+
+@media (min-width: 320px) {
+  .description, .r-toolbar {
+    padding: 0;
+  }
+  .wrapper {
+    height: 100%;
+    padding: 0;
+  }
+  .logo {
+    margin: 29px 0 6px 8px;
+  }
+  .container-fluid {
+    width: 420px;
+  }
+  .country-choose-btn {
+    width: 286px;
+  }
+  .mobile {
+    display: block;
+    background: #fff;
+  }
+  .map {
+    display: none;
+  }
+  .osminog-mainpage {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .osminog_text {
+    position: absolute;
+    left: 52px;
+    top: 528px;
+  }
+  .copywriting {
+    display: none;
+  }
+  .osminog-mainpage {
+    margin-top: 9px;
+  }
+  .en-lang:hover {
+    background-image: url(../img/Eng_white_hover.svg);
+  }
+  .ru-lang:hover {
+    background-image: url(../img/Ru_white_hover.svg);
+  }
+  .ukr-lang:hover {
+    background-image: url(../img/Ukr_white_hover.svg);
+  }
+  .description h2 {
+    font-size: 17px;
+    margin: 18px 0 0 0;
+    line-height: 1.5;
+  }
+  .description p {
+    font-size: 14px;
+    margin: 4px;
+  }
+  .lang-header h2 {
+    margin: 23px 0 5px 0;
+  }
+  .lang-choose {
+    margin: 30px 0 33px 0;
+  }
+  .country-header p, .lang-header p {
+    font-size: 14px;
+  }
+  .input-group {
+    margin: 50px 0 0 0;
+  }
+  .osminog_text p {
+    font-size: 14px;
+  }
+  .osminog-mainpage img {
+    height: 100%;
+    margin: 0px 13px 0 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-fluid {
+    width: 820px;
+    padding: 0 15px;
+    padding-left: 75px;
+  }
+  .osminog-mainpage img {
+    margin-left: 45px;
+  }
+  .copywriting {
+    margin-top: -24px;
+    ;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    overflow: hidden;
+  }
+  .description, .r-toolbar {
+    padding: auto;
+  }
+  .country-header p, .lang-header p {
+    font-size: 16px;
+  }
+  .country-choose-btn {
+    width: 313px;
+  }
+  .mobile {
+    display: flex;
+    background: #F4F4FA;
+  }
+  .container-fluid {
+    width: 100%;
+    padding: 0;
+  }
+  .map {
+    display: block;
+  }
+  .map img {
+    width: 90%;
+  }
+  .description {
+    margin: 6%;
+  }
+  .r-toolbar {
+    padding: 10%;
+  }
+  .osminog-mainpage {
+    margin-top: 51px;
+    flex-direction: row;
+  }
+  .copywriting {
+    display: block;
+    margin-top: 13%;
+  }
+  .logo {
+    margin: 0 0 24px 0;
+  }
+  .logo_img {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: -webkit-linear-gradient(305deg, #82589B 14.01, #83589A 15.01, #935985 35.72, #A45972 57.06, #B15763 78.55, #BC5656 100.22, #C5544D 122.16, #CC5347 144.44, #D15244 167.3, #D35243 191.64);
+    background: -o-linear-gradient(305deg, #82589B 14.01, #83589A 15.01, #935985 35.72, #A45972 57.06, #B15763 78.55, #BC5656 100.22, #C5544D 122.16, #CC5347 144.44, #D15244 167.3, #D35243 191.64);
+    background: linear-gradient(35deg, #82589B 14.01, #83589A 15.01, #935985 35.72, #A45972 57.06, #B15763 78.55, #BC5656 100.22, #C5544D 122.16, #CC5347 144.44, #D15244 167.3, #D35243 191.64);
+  }
+  .description h2 {
+    font-family: 'Montserrat Alternates Bold', sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0 0 34px 0;
+  }
+  .description p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .lang-header h2 {
+    margin: 0;
+  }
+  .lang-choose {
+    margin: 0 0 4% 0;
+  }
+  .country-header {
+    font-size: 16px;
+  }
+  .input-group {
+    margin: auto;
+  }
+  .country-choose-btn {
+    width: 200px;
+  }
+  .osminog_text {
+    margin: 33px 0 0 28px;
+    position: static;
+  }
+  .osminog_text p {
+    font-size: 16px;
+  }
+  .osminog-mainpage img {
+    height: 100%;
+    margin: 0;
+  }
+}
+
+.lang-header h2, .country h2 {
+  font-family: 'Montserrat Alternates Bold', sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.right-form {
+  background: #ffff;
+  right: 0;
+}
+
+.logo {
+  width: 81px;
+  height: 49px;
+}
+
+.lang-header {
+  line-height: 29px;
+  left: 114px;
+  top: 126px;
+}
+
+.lang-choose {
+  width: 133px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-choose img {
+  display: block;
+}
+
+.country h2 {
+  margin-bottom: 14px;
+}
+
+.country-choose-btn {
+  height: 40px;
+  background: #F2F2F9;
+  display: flex;
+  border-radius: 4px;
+  justify-content: space-between;
+  color: #000;
+}
+
+.country-choose-btn img {
+  margin-top: 10px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+/*  пока нет дизайна выпадающего меню*/
+
+.dropdown-menu.show {
+  display: none;
+}
+
+.btn-next {
+  margin-top: 20px;
+}
+
+@media (min-width: 1705px) {
+  .wrapper {
+    height: 100vh;
+  }
+}
